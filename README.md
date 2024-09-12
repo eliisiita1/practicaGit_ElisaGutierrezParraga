@@ -112,3 +112,7 @@ Por último, ejecuto el siguiente comando para moverme a ese commit:
 ```bash
 git checkout <commitHash>
 ```
+
+
+## EJERCICIO 2 PRÁCTICA 
+Pull request creada: https://github.com/kasappeal/nerdquotes/pull/763
