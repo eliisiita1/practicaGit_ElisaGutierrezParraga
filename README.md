@@ -1,9 +1,10 @@
 # practicaGit_ElisaGutierrezParraga
 - ¿Qué comando utilizaste en el paso 11? ¿Por qué?
 En el paso 11 he ejecutado el comando "git reset --hard HEAD~1".
-Con git reset podemos mover una rama a donde queramos. En este caso, un commit atrás con la indicación HEAD~1.
-Indicamos --hard para perder los cambios realizados en el working copy. Si no indicamos --hard, todos los cambios del commit que saltamos, los estaríamos recuperando en el working copy.
-Con este comando retrocedemos un commit con HEAD~1
+
+Con git reset podemos mover una rama a donde queramos. En este caso, un commit atrás con la indicación "HEAD~1".
+Indicamos --hard para perder los cambios realizados en el working copy. Si no indicasemos --hard, todos los cambios del commit que saltamos, los estaríamos recuperando en el working copy.
+
 
 - ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
 He hecho git reflog para copiar el chash del commit realizado antes del reset primero, donde se había modificado el fichero.
